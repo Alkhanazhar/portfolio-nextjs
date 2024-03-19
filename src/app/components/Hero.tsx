@@ -11,6 +11,7 @@ const Hero = () => {
   const twitterId = "your-twitter-id";
   return (
     <section className="h-auto md:h-[46rem] flex  justify-center items-center relative overflow-hidden py-10 md:py-0 container mx-auto px-12 flex-col md:flex-row gap-24">
+      {/* socials */}
       <div className="fixed top-2 right-4 gap-4 items-center z-[999] hidden md:flex">
         <ul className="flex gap-4 text-xl">
           <li className="hover:text-slate-500 duration-200">
